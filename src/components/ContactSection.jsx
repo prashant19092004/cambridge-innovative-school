@@ -1,9 +1,57 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ContactSection.css'
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import Swal from 'sweetalert2'
 
 const ContactSection = () => {
+
+    const [contactData, setContactData] = useState({
+        name : "",
+        email : "",
+        contact : "",
+        message : ""
+    })
+
+    function changeHandler(e) {
+        setContactData({
+            ...contactData, [e.target.name] : e.target.value
+        })
+    }
+
+    async function submitContact(){
+        try{
+            await axios.post('https://sheet.best/api/sheets/fb455aac-2250-4fc1-afc4-1524897927ea', contactData)
+            .then((res) => {
+                // console.log(res);
+                if(res.status === 200){
+                    setContactData({
+                        name : "",
+                        email : "",
+                        contact : "",
+                        message : ""
+                    })
+                    Swal.fire({
+                        title: "Message Sent",
+                        // text: "You ",
+                        icon: "success"
+                      });
+                }
+                else{
+                    Swal.fire({
+                        icon: "error",
+                        title: "Try Again",
+                        text: "Something went wrong!",
+                        // footer: '<a href="#">Why do I have this issue?</a>'
+                      });
+                }
+            })
+        }catch(err){
+            console.log(err);
+        }
+    }
+
   return (
     <div className='px-0 lg:px-[75px] flex justify-center items-center my-20'>
             <div class="container">
@@ -45,23 +93,23 @@ const ContactSection = () => {
                         <h2>Send a Message</h2>
                         <div class="formBox">
                         <div class="inputBox w50">
-                            <input type="text" name="" required />
+                            <input type="text" name="name" value={contactData.name} onChange={changeHandler} required />
                             <span>Name</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="email" required />
+                            <input type="email" name="email" value={contactData.email} onChange={changeHandler} required />
                             <span>Email Address</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="number"  required />
+                            <input type="number" name="contact" value={contactData.contact} onChange={changeHandler}  required />
                             <span>Contact</span>
                         </div>
                         <div class="inputBox w100">
-                            <textarea required></textarea>
+                            <textarea name='message' onChange={changeHandler} value={contactData.message} required></textarea>
                             <span>Write your message here...</span>
                         </div>
                         <div class="inputBox w100">
-                            <input type="submit" value="Send" />
+                            <input type="submit" onClick={submitContact} value="Send" />
                         </div>
                     </div>
                 </div>                    
