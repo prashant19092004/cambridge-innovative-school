@@ -1,9 +1,17 @@
 import React from 'react'
-import About_second_pic from '../../assets/About_second_pic.png';
-import check_mark from '../../assets/check-mark.png';
+import About_second_pic from '../../assets/About_second_pic.webp';
+import check_mark from '../../assets/check-mark.webp';
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
 
 const AboutSecond = () => {
+  
+  const navigate = useNavigate();
+
+  function contactPage(){
+    navigate('/contact');
+  }
+  
   return (
     <div className='w-[100%] px-[20px] lg:px-[75px] py-10'>
         <div className='flex justify-between w-full'>
@@ -33,7 +41,7 @@ const AboutSecond = () => {
                     <p className='text-zinc-700 text-lg font-medium'>Clear & Cleaning</p>
                   </div>
                 </div> */}
-                <button className='bg-[#ff9900] mt-9 hover:bg-[#f59c17] px-5 py-5 text-sm font-medium text-white rounded-2xl flex gap-3 items-center'>Explore More<span><FaArrowRightLong color='white' /></span></button>
+                <button onClick={contactPage} className='bg-[#ff9900] mt-9 hover:bg-[#f59c17] px-5 py-5 text-sm font-medium text-white rounded-2xl flex gap-3 items-center'>Explore More<span><FaArrowRightLong color='white' /></span></button>
             </div>
         </div>
     </div>

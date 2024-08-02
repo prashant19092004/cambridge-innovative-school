@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './style.css';
-import hero_pic1 from '../assets/hero_pic2.png';
+import hero_pic1 from '../assets/hero_pic2.webp';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import { Link } from 'react-router-dom';
@@ -50,8 +50,8 @@ const Hero = () => {
 
   return (
     <div>
-        <div className='w-[100%] px-[20px] lg:px-[50px] relative' id='hero'>
-          <div className='w-[100vw] h-[100vh] md:w-[70vw] md:h-[70vw] md:rounded-full bg-[#f2f7fd] absolute top-0 right-0 md:top-[-50%] md:right-[-10%] -z-10'></div>
+        <div className='w-[100%] px-[20px] lg:px-[50px] md:relative' id='hero'>
+          <div className='w-[100vw] h-[90vh] md:w-[70vw] md:h-[70vw] md:rounded-full bg-[#f2f7fd] absolute top-0 right-0 md:top-[-50%] md:right-[-10%] -z-10'></div>
           <div className='flex justify-between w-[100%] flex-wrap'>
             <div className='w-[100%] md:w-[55%] h-[65vh] md:h-auto flex justify-center md:justify-start items-center lg:items-start pt-0 lg:pt-[4rem]'>
                 <div className='flex flex-col gap-8 sm:gap-5 justify-center items-center text-center' id='hero_content'>

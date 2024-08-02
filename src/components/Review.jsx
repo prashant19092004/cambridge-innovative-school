@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Review.css';
-import quotes from '../assets/quotes.png';
+import quotes from '../assets/quotes.webp';
 
 const testimonials = [
   {

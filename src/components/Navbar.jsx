@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import './Navbar.css';
 // import logo from '../assets/logo.jpg';
-import logo_full from '../assets/logo-full.png';
-import { IoMenu } from "react-icons/io5";
+import logo_full from '../assets/logo-full.webp';
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -49,7 +48,7 @@ let menuClick = () =>
     <div>
         
         <header className='main_navbar'>
-                <a href="" class="logo"><img src={logo_full} alt="" /></a>
+                <Link to="/" class="logo"><img src={logo_full} alt="" /></Link>
 
                 <div className='flex flex-col'>
                     <div className='navbar_content'>

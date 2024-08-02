@@ -1,6 +1,6 @@
 import React from 'react'
-import About_second_pic from '../../assets/vision2.png';
-import check_mark from '../../assets/check-mark.png';
+import About_second_pic from '../../assets/vision2.webp';
+import check_mark from '../../assets/check-mark.webp';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 

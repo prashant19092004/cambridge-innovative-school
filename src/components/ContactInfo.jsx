@@ -1,5 +1,4 @@
 import React from 'react';
-import send_message from '../assets/send-message.png';
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import { IoMdSend } from "react-icons/io";
 

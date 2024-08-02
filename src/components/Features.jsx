@@ -1,10 +1,10 @@
 import React from 'react'
-import apple_and_books from '../assets/apple-and-books.png';
-import games from '../assets/games.png';
-import open_book from '../assets/open-book.png';
-import school from '../assets/school.png';
-import seesaw from '../assets/seesaw.png';
-import sister_and_brother from '../assets/sister-and-brother.png';
+import apple_and_books from '../assets/apple-and-books.webp';
+import games from '../assets/games.webp';
+import open_book from '../assets/open-book.webp';
+import school from '../assets/school.webp';
+import seesaw from '../assets/seesaw.webp';
+import sister_and_brother from '../assets/sister-and-brother.webp';
 
 const Features = () => {
 

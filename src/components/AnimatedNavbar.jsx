@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Navbar.css';
 // import logo from '../assets/logo.jpg';
-import logo_full from '../assets/logo-full.png';
+import logo_full from '../assets/logo-full.webp';
 import { IoMenu } from "react-icons/io5";
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import gsap from 'gsap';
@@ -28,7 +28,7 @@ useEffect(() => {
             trigger: ".main_navbars",
             // markers : true,
             start : "top -20%",
-            end : "top -30%",
+            end : "top -25%",
             scrub : 0
         } 
     })
@@ -47,7 +47,7 @@ let menuClick = () =>
     <div className='ani'>
         
         <header className='main_navbars fixed top-0 left-0 z-50 bg-white'>
-                <a href="" class="logo"><img src={logo_full} alt="" /></a>
+                <Link to="" class="logo"><img src={logo_full} alt="" /></Link>
 
                 <div className='flex flex-col'>
                     {/* <div className='navbar_content'>

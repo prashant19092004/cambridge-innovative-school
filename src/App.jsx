@@ -7,7 +7,6 @@ import Check from './components/Check';
 import SectionFirst from './components/SectionFirst';
 import Review from './components/Review';
 import Features from './components/Features';
-import FeaturesSec from './components/FeaturesSec';
 import Principal from './components/Principal';
 import AboutSection from './components/AboutSection';
 import Campus from './components/Campus';

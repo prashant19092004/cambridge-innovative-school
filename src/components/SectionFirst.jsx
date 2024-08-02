@@ -1,5 +1,9 @@
 import React from 'react'
 import './SectionFirst.css'
+import one from '../assets/one_pic.webp';
+import two from '../assets/two_pic.webp';
+import three from '../assets/three_pic.webp';
+import four from '../assets/four_pic.webp';
 
 const SectionFirst = () => {
   return (
@@ -20,16 +24,16 @@ const SectionFirst = () => {
                 <span class="ball"></span>
                 <section class="fixed_flex">
                     <figure class="flex_content">
-                        <img src="https://i.postimg.cc/0yF7CRkX/01.jpg" alt="" loading="lazy" />
+                        <img src={one} alt="" loading="lazy" />
                     </figure>
                     <figure class="flex_content">
-                        <img src="https://i.postimg.cc/wBNLff3q/02.jpg" alt="" loading="lazy" />
+                        <img src={two} alt="" loading="lazy" />
                     </figure>
                     <figure class="flex_content">
-                        <img src="https://i.postimg.cc/7hK2GjtV/03.jpg" alt="" loading="lazy" />
+                        <img src={three} alt="" loading="lazy" />
                     </figure>
                     <figure class="flex_content">
-                        <img src="https://i.postimg.cc/tCgPQC7m/04.jpg" alt="" loading="lazy" />
+                        <img src={four} alt="" loading="lazy" />
                     </figure>
                 </section>
             </div>

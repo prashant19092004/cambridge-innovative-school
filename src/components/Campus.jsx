@@ -1,11 +1,11 @@
 import React from 'react'
 import './Principal.css';
-import principal_one from '../assets/about-shape-3.png';
-import campus from '../assets/campus.jpeg';
-import education from '../assets/education.png';
-import reading from '../assets/reading.png';
-import forest from '../assets/forest.png';
-import graduation from '../assets/graduation.png';
+import principal_one from '../assets/about-shape-3.webp';
+import campus from '../assets/campus.webp';
+import education from '../assets/education.webp';
+import reading from '../assets/reading.webp';
+import forest from '../assets/forest.webp';
+import graduation from '../assets/graduation.webp';
 
 const Campus = () => {
 

@@ -46,11 +46,15 @@ const ContactSection = () => {
                         <div class="formBox">
                         <div class="inputBox w50">
                             <input type="text" name="" required />
-                            <span>First Name</span>
+                            <span>Name</span>
                         </div>
                         <div class="inputBox w50">
                             <input type="email" required />
                             <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="number"  required />
+                            <span>Contact</span>
                         </div>
                         <div class="inputBox w100">
                             <textarea required></textarea>
