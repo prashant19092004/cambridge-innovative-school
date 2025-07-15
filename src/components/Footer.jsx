@@ -19,7 +19,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h3 className='font-medium'>Call</h3>
-                                <p className='text-zinc-600 text-sm'>+91 827875125</p>
+                                <p className='text-zinc-600 text-sm'>+91 8278751205</p>
                             </div>
                         </div>
                         <div className='flex justify-start items-center gap-3'>

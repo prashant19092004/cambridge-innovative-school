@@ -16,7 +16,7 @@ const ContactInfo = () => {
             <FaPhone className='text-xl text-[#ff9900]' />
             <h1 className='text-lg font-medium mt-3'>CONTACT US</h1>
             <p className='text-zinc-500 text-md'>9816164155</p>
-            <p className='text-zinc-500 text-md'>827875125</p>
+            <p className='text-zinc-500 text-md'>8278751205</p>
         </div>
         <div className='w-[1px] h-32 bg-zinc-400 hidden sm:block'></div>
         <div className='flex flex-col justify-center items-center gap-1'>

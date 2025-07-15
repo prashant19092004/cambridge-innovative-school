@@ -37,7 +37,7 @@ const Principal = () => {
             <h2 className='text-2xl lg:text-3xl text-[#000066] font-semibold'>Laxmi Kant Bhatia</h2>
             <p class="text-lg text-[#ff9900] font-medium mt-3 mb-1">Qualification : </p>
 
-            <p className='text-[#000066]'>M.A (Eng., Hist. Sociology and Psychology), M.Ed., M.Phil., P.hd(Doing)</p>
+            <p className='text-[#000066]'>M.A (Eng., Hist. Sociology and Psychology), M.Ed., M.Phil., Ph.D (pursuing)</p>
 
             <p class="text-lg text-[#ff9900] font-medium mt-3 mb-1">Principal's Message : </p>
             <p className='text-zinc-500'>Our team of passionate educators is committed to providing a supportive and engaging learning environment. We believe in the power of collaboration between school and home to guide our students toward success.</p>
