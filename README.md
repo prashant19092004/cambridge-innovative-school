@@ -32,12 +32,18 @@
 
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Overview](#overview)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
+
+---
+
+## Screenshots
+![Demo](./src/assets/screenshots/1.png)
 
 ---
 
