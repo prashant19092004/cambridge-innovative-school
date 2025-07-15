@@ -26,7 +26,6 @@
 
 👉 [Live Demo](https://www.cambridgesmartschool.com/)
 
-
 ---
 
 
@@ -44,6 +43,7 @@
 
 ## Screenshots
 ![Demo](./src/assets/screenshots/1.png)
+![Demo](./src/assets/screenshots/2.png)
 
 ---
 
